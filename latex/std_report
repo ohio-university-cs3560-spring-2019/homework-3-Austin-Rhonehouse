@@ -1,0 +1,17 @@
+\documentclass[12 pt] {article} 
+\usepackage[latin1]{inputenc}  
+\usepackage{amsmath}  
+\usepackage{amsfonts}  
+\usepackage{amssymb}  
+\usepackage{makeidx}  
+\usepackage{graphicx}  
+
+\title{CS3560 Homework3 - Standard Deviation Report}
+\date{2/11/19}
+\author{Austin Rhonehouse}
+
+\begin{document}
+\maketitle
+$s=\sqrt{\frac{1}{N-1}\sum_{i=1}^N(x_i-\bar{x})^2}$.This is the equation for standard deviation of a data set where $s$ equals standard deviation, $N$ is the number of values in the set, $x_i$ is the $i$th element in the set, and $\overline{x}$ is the average. Standard deviation is a number that shows how measurements are different from the average value in the set. Low standard deviation means the set of number are closer to the average. High standard deviation means that the numbers are more spread apart.
+
+\end{document}
